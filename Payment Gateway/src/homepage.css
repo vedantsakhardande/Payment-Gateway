@@ -1,0 +1,49 @@
+.site-info {
+  background: lightgray;
+  overflow: auto;
+}
+  label{
+    margin-right: 50%;
+  }
+input{
+  margin-right: 50%;
+}
+.inlineblock { 
+    display: inline-block;
+}
+#heading{
+    align-content: center;
+    color: white;
+    width: 100%
+}
+#homeref{
+  color: #e3f2fd;
+  font-size:2vw
+}
+#submit{
+    margin:auto;
+    display:block;
+  }
+#personname{
+    margin: auto;
+    display: block;
+}
+#email{
+    align-content: center;
+}
+@media only screen and (max-width: 600px) {
+    .site-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: lightgray;
+    }
+    .right {
+      display: flex;
+      align-items: center;
+    }
+    .right img {
+      margin-left: 10px;
+    }
+
+  }
